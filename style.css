@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 33px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.div-1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+}
+
+img {
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.list li {
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -0.04em;
+color: #757575;
+padding-inline: 15px;
+display: inline-block;
+}
+
+.list li:first-child {
+    color: #000000;;
+}
+
+.div-2 {
+    display: flex;
+    align-items: center;
+}
+
+.div-2-1 {
+    display: flex;
+    align-items: center;
+}
+
+.img-A {
+    padding: 9px 14px;
+    gap: 14px;
+    width: 41px;
+    height: 40px;
+
+}
+p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    padding-right: 30px;
+}
+
+.sign-out {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.burger {
+    background-image: url(./images/Burger\ \(1\).png);
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .div-1 {
+        justify-content: center;
+    }
+
+    .logo {
+        width: 122px;
+        order: 2;
+    }
+
+    .list {
+        display: none;
+    }
+    .burger {
+        display: block;
+        order: 1;
+        margin-left: 20px;
+        margin-right: 65px;
+    }
+
+    .img-A {
+        padding: 9px 14px;
+        gap: 14px;
+        width: 32px;
+        height: 32px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .sign-out {
+        display: none;
+    }
+}
