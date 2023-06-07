@@ -78,7 +78,7 @@ display: inline-block;
     height: 40px;
 
 }
-p {
+.alex {
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
@@ -97,12 +97,11 @@ p {
 }
 
 .burger {
-    background-image: url(./images/Burger\ \(1\).png);
+    background-image: url(./images/Burger\ \(2\).png);
     width: 24px;
     height: 24px;
     display: none;
 }
-
 
 @media screen and (max-width: 800px) {
     .div-1 {
