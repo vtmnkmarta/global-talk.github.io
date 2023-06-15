@@ -96,11 +96,22 @@ display: inline-block;
     color: #000000;
 }
 
-.burger {
-    background-image: url(./images/Burger\ \(2\).png);
+.hamburger {
+    background-image: url(./images/Burger\ \(2\).png); 
     width: 24px;
     height: 24px;
     display: none;
+}
+
+.nav-mobile {
+    display: flex;
+}
+.list-mobile {
+    flex-direction: column; 
+    position: absolute;
+    top: 100px;
+    padding: 0px;
+    align-items: normal;
 }
 
 @media screen and (max-width: 800px) {
@@ -113,10 +124,10 @@ display: inline-block;
         order: 2;
     }
 
-    .list {
+    nav {
         display: none;
     }
-    .burger {
+    .hamburger {
         display: block;
         order: 1;
         margin-left: 20px;
